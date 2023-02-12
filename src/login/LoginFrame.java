@@ -286,7 +286,7 @@ public class LoginFrame extends javax.swing.JFrame {
         else{
             if(usuario.equals("Jo") && contraseña.equals("1")){
                 JOptionPane.showMessageDialog(null, "Ingresando");
-                Frame_Entrada entrada = new Frame_Entrada();
+                frmVisual entrada = new frmVisual();
                 entrada.setVisible(true);
                 entrada.setLocationRelativeTo(null);
                 this.dispose();
