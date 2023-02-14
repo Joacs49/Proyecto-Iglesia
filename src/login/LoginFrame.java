@@ -298,10 +298,7 @@ public class LoginFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        New_Usuario user = new New_Usuario();
-        user.setVisible(true);
-        user.setLocationRelativeTo(null);
-        this.dispose();
+   
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
